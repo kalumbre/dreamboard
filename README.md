@@ -1,17 +1,90 @@
-# dreamboard
+# DreamBoard 🌸✨
 
-A new Flutter project.
+Una aplicación móvil aesthetic desarrollada en Flutter para descubrir, leer y guardar DreamToons (webtoons/cómics), así como imágenes de inspiración al estilo Pinterest.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Descripción
 
-A few resources to get you started if this is your first Flutter project:
+DreamBoard es una app para amantes del anime, manga y arte digital. Permite a los usuarios explorar DreamToons, guardar imágenes en tableros personalizados, seguir artistas y personalizar el color de la app.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Funcionalidades
+
+- 📚 **DreamToons** — Lee webtoons con visor de imágenes y texto estilo manga
+- 🖼️ **Feed de imágenes** — Estilo Pinterest con categorías (Arte, Aesthetic, Personajes, etc.)
+- 🗂️ **Tableros** — Guarda tus DreamToons e imágenes favoritas
+- 👤 **Perfiles de artista** — Sigue artistas y ve sus publicaciones
+- 🎨 **Temas de color** — Personaliza el color de la app (Morado, Rosa, Azul, Menta, Durazno, Lavanda)
+- 🔐 **Registro e inicio de sesión** — Sistema de autenticación local con Hive
+- 📖 **Publicar DreamToons** — Los artistas pueden subir sus propias obras y capítulos
+
+---
+
+## 🛠️ Tecnologías
+
+- **Flutter** — Framework de desarrollo móvil
+- **Dart** — Lenguaje de programación
+- **Hive** — Base de datos local
+- **Provider** — Gestión de estado
+- **Google Fonts** — Tipografías (Pacifico, Poppins)
+- **Image Picker** — Selección de imágenes desde galería
+
+---
+
+## 🚀 Instalación
+
+### Requisitos
+- Flutter SDK 3.0 o superior
+- Android Studio o VS Code
+- Dispositivo Android o emulador
+
+### Pasos
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/kalumbre/dreamboard.git
+cd dreamboard
+```
+
+2. Instala las dependencias:
+```bash
+flutter pub get
+```
+
+3. Corre la app:
+```bash
+flutter run
+```
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+lib/
+├── core/theme/          # Colores y temas
+├── models/              # Modelos de datos (Hive)
+├── providers/           # ThemeProvider
+├── screens/             # Pantallas de la app
+│   ├── auth/            # Login, Register, Splash
+│   ├── feed/            # Feed principal
+│   ├── dreamtoon/       # Lector y detalle de DreamToons
+│   ├── boards/          # Tableros
+│   ├── profile/         # Perfil de usuario
+│   ├── pinterest/       # Imágenes estilo Pinterest
+│   └── settings/        # Configuración de color
+├── services/            # HiveService
+└── widgets/             # Widgets reutilizables
+assets/
+├── covers/              # Portadas de DreamToons
+├── images/              # Imágenes del feed
+└── logo.png             # Logo de la app
+```
+
+---
+
+## 👩‍💻 Desarrollado por
+
+**kalumbre** — Proyecto escolar DreamBoard
