@@ -87,4 +87,4 @@ assets/
 
 ## 👩‍💻 Desarrollado por
 
-**kalumbre** — Proyecto escolar DreamBoard
+**Karime Jailyn Bernal Sanchez y Laura Edith  Duran Mendoza ** — Proyecto escolar DreamBoard
